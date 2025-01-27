@@ -7,7 +7,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/white">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -76,29 +77,28 @@
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
-                android:textAlignment="center"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="Jakub Bonczyk"
+                android:textAlignment="center"
                 android:textColor="@color/darkred"
                 android:textSize="26sp"
-                android:textStyle="bold"
-                />
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:text="jakubbonczyk@icloud.com" />
+                android:text="jakubbonczyk@icloud.com"
+                android:textAlignment="center" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="32dp"
-                android:layout_marginEnd="32dp"
                 android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
-                android:layout_height="match_parent">
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="16dp">
 
                 <ImageView
                     android:id="@+id/imageView9"
@@ -107,17 +107,17 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/btn"/>
+                    app:srcCompat="@drawable/btn" />
 
                 <TextView
                     android:id="@+id/textView8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
-                    android:text="Powiadomienia"
-                    android:textStyle="bold"
+                    android:text="Zmień zdjęcie profilowe"
                     android:textColor="@color/darkred"
                     android:textSize="20sp"
+                    android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/imageView9"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -134,11 +134,11 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="32dp"
-                android:layout_marginEnd="32dp"
                 android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
-                android:layout_height="match_parent">
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="16dp">
 
                 <ImageView
                     android:id="@+id/imageView11"
@@ -174,11 +174,11 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="32dp"
-                android:layout_marginEnd="32dp"
                 android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
-                android:layout_height="match_parent">
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="16dp">
 
                 <ImageView
                     android:id="@+id/imageView13"
@@ -214,11 +214,11 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="32dp"
-                android:layout_marginEnd="32dp"
                 android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
-                android:layout_height="match_parent">
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="16dp">
 
                 <ImageView
                     android:id="@+id/imageView14"
@@ -235,9 +235,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:text="Ulubione filmy"
-                    android:textStyle="bold"
                     android:textColor="@color/darkred"
                     android:textSize="20sp"
+                    android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/imageView14"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -254,11 +254,11 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="32dp"
-                android:layout_marginEnd="32dp"
                 android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
-                android:layout_height="match_parent">
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="16dp">
 
                 <ImageView
                     android:id="@+id/imageView16"
@@ -294,11 +294,11 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="32dp"
-                android:layout_marginEnd="32dp"
                 android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
-                android:layout_height="match_parent">
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="16dp">
 
                 <ImageView
                     android:id="@+id/imageView18"
@@ -315,9 +315,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:text="Wyloguj"
-                    android:textStyle="bold"
                     android:textColor="@color/darkred"
                     android:textSize="20sp"
+                    android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/imageView18"
                     app:layout_constraintTop_toTopOf="parent" />
